@@ -1,114 +1,140 @@
-# Password Strength Checker
+# 🔐 Password Strength Checker
 
-A simple Python-based Password Strength Checker that evaluates the strength of a password based on common security requirements.
+A Python-based Password Strength Checker that evaluates password security based on length, complexity, and character variety. The tool helps users create stronger passwords and understand basic password security principles.
 
-## Features
+---
 
-* Checks password length
-* Checks for uppercase letters
-* Checks for lowercase letters
-* Checks for numbers
-* Checks for special characters
-* Generates a password strength score (0–100%)
-* Displays a visual strength bar
-* Shows missing security requirements
-* Categorizes passwords as Weak, Medium, or Strong
+## 📊 Project Overview
 
-## Technologies Used
+![Overview](screenshots/password-strength-checker-overview.png)
 
-* Python 3
+---
 
-## How It Works
+## 🎯 Features
 
-The program analyzes the entered password and awards points for:
+- Evaluates password strength
+- Checks password length
+- Detects uppercase letters
+- Detects lowercase letters
+- Detects numbers
+- Detects special characters
+- Provides password security feedback
+- Beginner-friendly cybersecurity project
 
-* Minimum 8 characters
-* At least one uppercase letter
-* At least one lowercase letter
-* At least one number
-* At least one special character
+---
 
-Each requirement contributes to the overall strength score.
+## 🛠 Technologies Used
 
-## Example Output
+- Python
+- String Operations
+- Conditional Statements
+- Cybersecurity Fundamentals
 
-### Weak Password
+---
 
-Input:
+## ⚙️ How It Works
 
-piyush
+1. User enters a password.
+2. The program analyzes the password.
+3. Various security checks are performed:
+   - Length validation
+   - Uppercase letter detection
+   - Lowercase letter detection
+   - Number detection
+   - Special character detection
+4. A strength rating is generated.
+5. Security recommendations are displayed.
 
-Output:
+---
 
-Password Strength: Weak Password
+## 🖥 Password Strength Evaluation Example
 
-[████----------------] 40%
+![Checker Output](screenshots/password-strength-checker.png)
 
-Missing Requirements:
+---
 
-* Uppercase letter
-* Number
-* Special Character
+## 🖥 Original Program Output
 
-### Medium Password
+![Original Output](screenshots/original-output.png)
 
-Input:
+---
 
-Piyush123
+## 📂 Project Structure
 
-Output:
-
-Password Strength: Medium Password
-
-[████████████████----] 80%
-
-Missing Requirements:
-
-* Special Character
-
-### Strong Password
-
-Input:
-
-Piyush@123
-
-Output:
-
-Password Strength: Strong Password
-
-[████████████████████] 100%
-
-## Project Structure
-
+```text
 Password-Strength-Checker/
-
+│
 ├── Password_strength_checker.py
-
 ├── README.md
-
+│
 └── screenshots/
-
-```
-├── Running_Code.png
-
-└── Output.png
+    ├── password-strength-checker-overview.png
+    ├── password-strength-checker.png
+    └── original-output.png
 ```
 
-## Learning Outcomes
+---
 
-Through this project, I learned:
+## 📚 Skills Learned
 
-* Python functions
-* Conditional statements
-* Loops
-* String methods
-* Lists
-* Return values
-* Basic cybersecurity password policies
-* Building practical security tools with Python
+- Password Security Concepts
+- Authentication Fundamentals
+- Python String Handling
+- Conditional Logic
+- Input Validation
+- Cybersecurity Best Practices
 
-## Author
+---
 
-Piyush Vishwakarma
+## 🔒 Password Security Criteria
 
-Cybersecurity Student | Python Learner | Aspiring SOC Analyst
+A strong password should contain:
+
+✅ At least 8 characters
+
+✅ Uppercase letters (A-Z)
+
+✅ Lowercase letters (a-z)
+
+✅ Numbers (0-9)
+
+✅ Special characters (!@#$%^&*)
+
+---
+
+## 💡 Why Password Strength Matters
+
+Weak passwords are vulnerable to:
+
+- Dictionary Attacks
+- Brute Force Attacks
+- Credential Stuffing
+- Unauthorized Access
+
+Strong passwords significantly reduce these risks.
+
+---
+
+## 🌍 Real-World Applications
+
+- User Authentication Systems
+- Account Security
+- Security Awareness Training
+- Cybersecurity Education
+- Identity Protection
+
+---
+
+## ⚠️ Disclaimer
+
+This project was developed for educational and cybersecurity learning purposes only.
+
+---
+
+## 👨‍💻 Author
+
+**Piyush Vishwakarma**
+
+MCA (Cybersecurity) Student
+
+Aspiring SOC Analyst | Digital Forensics Learner | Cybersecurity Enthusiast
